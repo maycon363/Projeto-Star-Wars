@@ -1,0 +1,167 @@
+export const jedi = [
+  {
+    nome: "Luke Skywalker",
+    genero: "Masculino",
+    especie: "Humano",
+    planetaNatal: "Tatooine",
+    altura: "1.72",
+    peso: "77",
+    afiliacao: "Ordem Jedi",
+    imagem: "https://preview.redd.it/4-years-ago-today-luke-skywalker-appeared-in-chapter-16-of-v0-v1ykj6p7cr7e1.jpg?width=640&crop=smart&auto=webp&s=0372e94672b3da9d96db5e237d1a91a76c7d790d",
+    sabreCor: "#00FF00", 
+  },
+  {
+    nome: "Obi-Wan Kenobi",
+    genero: "Masculino",
+    especie: "Humano",
+    planetaNatal: "Stewjon",
+    altura: "1.82",
+    peso: "77",
+    afiliacao: "Ordem Jedi",
+    imagem: "https://ogimg.infoglobo.com.br/in/22690674-e6e-9c8/FT1086A/obi-wan-spin-off-star-wars.jpg",
+    sabreCor: "#0000FF", // Cor Azul
+  },
+  {
+    nome: "Yoda",
+    genero: "Masculino",
+    especie: "Desconhecida",
+    planetaNatal: "Desconhecido",
+    altura: "0.66",
+    peso: "17",
+    afiliacao: "Ordem Jedi",
+    imagem: "https://s2.glbimg.com/6Mt61D705hGBewAG7VNeI5hUjEg=/e.glbimg.com/og/ed/f/original/2015/09/01/yoda-the-empire-strikes-back.jpg",
+    sabreCor: "#00FF00", // Cor Verde
+  },
+  {
+    nome: "Anakin Skywalker",
+    genero: "Masculino",
+    especie: "Humano",
+    planetaNatal: "Tatooine",
+    altura: "1.88",
+    peso: "84",
+    afiliacao: "Ordem Jedi",
+    imagem: "https://disneyplusbrasil.com.br/wp-content/uploads/2023/09/Anakin-Skywalker-em-Ahsoka.jpg",
+    sabreCor: "#0000FF", // Cor Azul
+  },
+  {
+    nome: "Mace Windu",
+    genero: "Masculino",
+    especie: "Humano",
+    planetaNatal: "Haruun Kal",
+    altura: "1.88",
+    peso: "84",
+    afiliacao: "Ordem Jedi",
+    imagem: "https://images.ladbible.com/resize?type=webp&quality=70&width=3840&fit=contain&gravity=auto&url=https://images.ladbiblegroup.com/v3/assets/bltbc1876152fcd9f07/bltd2c1bb2501ef5137/67e1269133066b43de7675c1/sw.png",
+    sabreCor: "#8A2BE2", // Cor Roxa
+  },
+  {
+    nome: "Ahsoka Tano",
+    genero: "Feminino",
+    especie: "Togruta",
+    planetaNatal: "Shili",
+    altura: "1.88",
+    peso: "57",
+    afiliacao: "Ordem Jedi (ex-membro)",
+    imagem: "https://uploads.alternativanerd.com.br/wp-content/uploads/2023/07/AN_Star-Wars-Ahsoka.jpg",
+    sabreCor: "#FFFFFF", // Cor Branca
+  },
+  {
+    nome: "Ki-Adi-Mundi",
+    genero: "Masculino",
+    especie: "Cerean",
+    planetaNatal: "Cerea",
+    altura: "1.98",
+    peso: "82",
+    afiliacao: "Ordem Jedi",
+    imagem: "https://lumiere-a.akamaihd.net/v1/images/databank_kiadimundi_01_169_0a8842d3.jpeg?region=0%2C0%2C1560%2C878",
+    sabreCor: "#0000FF", // Cor Azul
+  },
+  {
+    nome: "Plo Koon",
+    genero: "Masculino",
+    especie: "Kel Dor",
+    planetaNatal: "Dorin",
+    altura: "1.88",
+    peso: "80",
+    afiliacao: "Ordem Jedi",
+    imagem: "https://preview.redd.it/was-plo-koon-a-great-jedi-and-general-v0-dvi4yhuyvfpe1.jpeg?auto=webp&s=5cf5e0e7d272d9151f89b0285bcd6360cbe7e061",
+    sabreCor: "#0000FF", // Cor Azul
+  },
+  {
+    nome: "Kit Fisto",
+    genero: "Masculino",
+    especie: "Nautolano",
+    planetaNatal: "Glee Anselm",
+    altura: "1.96",
+    peso: "87",
+    afiliacao: "Ordem Jedi",
+    imagem: "https://lumiere-a.akamaihd.net/v1/images/databank_kitfisto_01_169_21517d01.jpeg?region=0%2C0%2C1560%2C878",
+    sabreCor: "#00FF00", // Cor Verde
+  },
+  {
+    nome: "Shaak Ti",
+    genero: "Feminino",
+    especie: "Togruta",
+    planetaNatal: "Shili",
+    altura: "1.87",
+    peso: "57",
+    afiliacao: "Ordem Jedi",
+    imagem: "https://lumiere-a.akamaihd.net/v1/images/shaak_ti_9523e7c7.jpeg?region=241%2C0%2C1438%2C809",
+    sabreCor: "#0000FF", // Cor Azul
+  },
+  {
+    nome: "Luminara Unduli",
+    genero: "Feminino",
+    especie: "Mirialan",
+    planetaNatal: "Mirial",
+    altura: "1.76",
+    peso: "56",
+    afiliacao: "Ordem Jedi",
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBXNlBFLoTBsNUd9SinanAno9eLRNZI2Ur_Q&s",
+    sabreCor: "#00FF00" // Verde
+  },
+  {
+    nome: "Barriss Offee",
+    genero: "Feminino",
+    especie: "Mirialan",
+    planetaNatal: "Mirial",
+    altura: "1.66",
+    peso: "50",
+    afiliacao: "Ordem Jedi (ex-membro)",
+    imagem: "https://oyster.ignimgs.com/mediawiki/apis.ign.com/star-wars-episode-7/f/f3/Barriss_offee_bio_pic.jpg",
+    sabreCor: "#0000FF" // Azul
+  },
+  {
+    nome: "Depa Billaba",
+    genero: "Feminino",
+    especie: "Humano",
+    planetaNatal: "Chalacta",
+    altura: "1.73",
+    peso: "58",
+    afiliacao: "Ordem Jedi",
+    imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRajPkjGl0mWosEXbWgi2XbAEyn6Lz9p85F2Q&s",
+    sabreCor: "#00FF00" // Verde
+  },
+  {
+    nome: "Jocasta Nu",
+    genero: "Feminino",
+    especie: "Humano",
+    planetaNatal: "Coruscant",
+    altura: "1.70",
+    peso: "60",
+    afiliacao: "Ordem Jedi",
+    imagem: "https://lumiere-a.akamaihd.net/v1/images/jocasta-nu_a3b32f08.jpeg?region=294%2C0%2C1656%2C1242",
+    sabreCor: "#0000FF" // Azul
+  },
+  {
+    nome: "Saesee Tiin",
+    genero: "Masculino",
+    especie: "Iktotchi",
+    planetaNatal: "Iktotch",
+    altura: "1.88",
+    peso: "80",
+    afiliacao: "Ordem Jedi",
+    imagem: "https://lumiere-a.akamaihd.net/v1/images/databank_saeseetiin_01_169_c9a8a41c.jpeg?region=0%2C0%2C1560%2C878",
+    sabreCor: "#00FF00" // Verde
+  }
+];
